@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Ponto Feno | Feno de Qualidade em Grande Escala</title>
+  <meta name="description" content="Ponto Feno - Fornecimento de feno em grande escala para bovinos, equinos, caprinos e ovinos. Pedido mínimo de 250 fardos. Qualidade e confiança." />
+  <meta name="keywords" content="feno, venda de feno, feno para bovinos, feno para equinos, feno a granel, fazenda, haras, agronegócio, fardos de feno" />
+  <meta name="author" content="Ponto Feno" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ponto Feno | Feno de Qualidade em Grande Escala" />
+  <meta property="og:description" content="Fornecimento de feno em larga escala com garantia e confiança. Pedido mínimo: 250 fardos." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo1.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==============================
+       NAVBAR
+       ============================== -->
+  <nav class="navbar" id="navbar">
+    <a href="#inicio" class="navbar__logo">
+      <!-- ✏️ EDITAR: logo da empresa -->
+      <img src="assets/logo1.png" alt="Logo Ponto Feno" />
+    </a>
+
+    <div class="navbar__menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+      <!-- ✏️ EDITAR: número do WhatsApp no href -->
+      <a href="https://wa.me/5518997384575?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="navbar__cta">
+        💬 Fale Conosco
+      </a>
+    </div>
+
+    <button class="navbar__hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Menu Mobile -->
+  <div class="navbar__mobile" id="mobile-menu">
+    <a href="#inicio">🏠 Início</a>
+    <a href="#animais">🐄 Para quais animais?</a>
+    <a href="#sobre">🌿 Sobre nós</a>
+    <a href="#contato">📞 Contato</a>
+    <a href="https://wa.me/5518997384575?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn-whatsapp" style="justify-content:center;margin-top:8px;">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+      Solicitar Orçamento
+    </a>
+  </div>
+
+  <!-- ==============================
+       HERO — CARROSSEL
+       ============================== -->
+  <section class="hero" id="inicio">
+
+    <!-- ✏️ EDITAR: Slide 1 — altere tag, título, subtítulo -->
+    <div class="hero__slide active">
+      <div class="hero__slide-bg" style="background-image:url('assets/banner-feno.jpg')"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <span class="hero__tag">🌿 Fornecimento em grande escala</span>
+        <h1 class="hero__title">Feno de Qualidade para o <span>Seu Rebanho</span></h1>
+        <p class="hero__subtitle">Fornecimento em larga escala com garantia, confiança e entrega direta para sua fazenda ou haras.</p>
+      </div>
+    </div>
+
+    <!-- ✏️ EDITAR: Slide 2 -->
+    <div class="hero__slide">
+      <div class="hero__slide-bg" style="background-image:url('assets/banner-feno2.jpg')"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <span class="hero__tag">🐄 Bovinos · Equinos · Caprinos · Ovinos</span>
+        <h1 class="hero__title">Nutrição de <span>Alta Performance</span> para seus Animais</h1>
+        <p class="hero__subtitle">Feno selecionado e tratado com o máximo cuidado, para garantir saúde e produtividade ao seu rebanho.</p>
+      </div>
+    </div>
+
+    <!-- ✏️ EDITAR: Slide 3 -->
+    <div class="hero__slide">
+      <div class="hero__slide-bg" style="background-image:url('assets/banner-feno3.jpg')"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <span class="hero__tag">📦 Pedido mínimo: 250 fardos</span>
+        <h1 class="hero__title">Parceiro Ideal para <span>Grandes Produtores</span></h1>
+        <p class="hero__subtitle">Atendemos fazendas, haras e produtores rurais que precisam de volume garantido com confiança e pontualidade.</p>
+      </div>
+    </div>
+
+    <!-- Controles -->
+    <div class="hero__controls">
+      <button class="hero__arrow" id="prev-slide" aria-label="Slide anterior">&#8249;</button>
+      <div class="hero__dots" id="dots"></div>
+      <button class="hero__arrow" id="next-slide" aria-label="Próximo slide">&#8250;</button>
+    </div>
+
+  </section>
+
+  <!-- ==============================
+       SEÇÃO: PARA QUAIS ANIMAIS?
+       ============================== -->
+  <section class="animais-section" id="animais">
+    <div class="section-container">
+      <div class="animais-header fade-in">
+        <span class="section-label">🐄 Criações atendidas</span>
+        <!-- ✏️ EDITAR: Título e subtítulo -->
+        <h2>Feno ideal para diferentes tipos de criação</h2>
+        <p>Fornecemos feno de alta qualidade para diversas espécies, garantindo nutrição e saúde para o seu rebanho.</p>
+      </div>
+
+      <div class="animais-grid">
+        <!-- ✏️ EDITAR: Cards dos animais -->
+        <div class="animal-card fade-in fade-in-delay-1">
+          <div class="animal-card__emoji-wrapper"><span>🐄</span></div>
+          <div class="animal-card__body">
+            <h3 class="animal-card__name">Bovinos</h3>
+            <p class="animal-card__desc">Feno de alta qualidade nutricional para gado de corte e leiteiro, garantindo produtividade e saúde do rebanho.</p>
+            <span class="animal-card__tag">Gado de corte e leite</span>
+          </div>
+        </div>
+
+        <div class="animal-card fade-in fade-in-delay-2">
+          <div class="animal-card__emoji-wrapper"><span>🐴</span></div>
+          <div class="animal-card__body">
+            <h3 class="animal-card__name">Equinos</h3>
+            <p class="animal-card__desc">Feno especialmente selecionado para cavalos de esporte, trabalho e reprodução, com fibras e nutrição balanceada.</p>
+            <span class="animal-card__tag">Cavalos e éguas</span>
+          </div>
+        </div>
+
+        <div class="animal-card fade-in fade-in-delay-3">
+          <div class="animal-card__emoji-wrapper"><span>🐐</span></div>
+          <div class="animal-card__body">
+            <h3 class="animal-card__name">Caprinos</h3>
+            <p class="animal-card__desc">Feno adequado para caprinos de leite e corte, com fibras ideais para a saúde digestiva da criação.</p>
+            <span class="animal-card__tag">Bode e cabra</span>
+          </div>
+        </div>
+
+        <div class="animal-card fade-in fade-in-delay-4">
+          <div class="animal-card__emoji-wrapper"><span>🐑</span></div>
+          <div class="animal-card__body">
+            <h3 class="animal-card__name">Ovinos</h3>
+            <p class="animal-card__desc">Alimentação equilibrada para ovinos de lã e carne, promovendo desenvolvimento saudável e ganho de peso.</p>
+            <span class="animal-card__tag">Ovelhas e carneiros</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SEÇÃO: QUANTIDADE MÍNIMA
+       ============================== -->
+  <section class="quantidade-section" id="quantidade">
+    <div class="section-container">
+      <div class="quantidade-inner">
+
+        <div class="quantidade-text fade-in">
+          <span class="section-label">📦 Pedido mínimo</span>
+          <!-- ✏️ EDITAR: Título e texto -->
+          <h2>Atendemos apenas pedidos em grande escala</h2>
+          <p>Nossa operação é voltada para produtores rurais, fazendeiros e criadores que precisam de volume consistente e entrega garantida.</p>
+
+          <div class="quantidade-features">
+            <div class="quantidade-feature">
+              <div class="quantidade-feature__icon">🌾</div>
+              <span>Ideal para fazendas e grandes criações</span>
+            </div>
+            <div class="quantidade-feature">
+              <div class="quantidade-feature__icon">🐴</div>
+              <span>Haras e centros equestres</span>
+            </div>
+            <div class="quantidade-feature">
+              <div class="quantidade-feature__icon">🚜</div>
+              <span>Produtores rurais de todo o Brasil</span>
+            </div>
+            <div class="quantidade-feature">
+              <div class="quantidade-feature__icon">✅</div>
+              <span>Compra com nota fiscal e garantia</span>
+            </div>
+          </div>
+
+          <!-- ✏️ EDITAR: link do WhatsApp -->
+          <a href="https://wa.me/5518997384575?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20de%20feno.%20Podem%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Solicitar Orçamento
+          </a>
+        </div>
+
+        <div class="quantidade-number-card fade-in fade-in-delay-2">
+          <!-- ✏️ EDITAR: número de fardos -->
+          <div class="quantidade-number-card__value">250</div>
+          <div class="quantidade-number-card__unit">fardos de feno</div>
+          <div class="quantidade-number-card__label">pedido mínimo</div>
+          <div class="quantidade-number-card__footer">
+            <p>Trabalhe com quem tem capacidade de atender sua demanda com qualidade e pontualidade.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       SEÇÃO: SOBRE A EMPRESA
+       ============================== -->
+  <section class="sobre-section" id="sobre">
+    <div class="section-container">
+      <div class="sobre-inner">
+
+        <div class="sobre-image-wrapper fade-in">
+          <!--
+            ✏️ EDITAR: Substitua o conteúdo abaixo por uma imagem real.
+            Exemplo: <img src="assets/foto-empresa.jpg" alt="Ponto Feno" />
+          -->
+          <div class="sobre-placeholder">🌾</div>
+          <div class="sobre-image-wrapper__overlay"></div>
+          <div class="sobre-badge">
+            <!-- ✏️ EDITAR: anos de experiência -->
+            <div class="sobre-badge__num">+5</div>
+            <div class="sobre-badge__txt">anos no mercado</div>
+          </div>
+        </div>
+
+        <div class="sobre-text fade-in fade-in-delay-2">
+          <span class="section-label">🌿 Quem somos</span>
+          <!-- ✏️ EDITAR: Textos da seção Sobre -->
+          <h2>Sobre a Ponto Feno</h2>
+          <p>A Ponto Feno é uma empresa especializada na comercialização de feno de alta qualidade, focada em atender fazendas, haras e produtores rurais que necessitam de fornecimento em larga escala.</p>
+          <p>Com mais de 5 anos de atuação no agronegócio, construímos uma reputação sólida baseada na qualidade do produto e atendimento personalizado direto ao produtor.</p>
+          <p>Nosso compromisso é ser o parceiro de confiança do produtor rural, oferecendo feno de alto padrão nutricional e suporte completo em todo o processo de compra.</p>
+
+          <div class="sobre-valores">
+            <div class="sobre-valor">
+              <div class="sobre-valor__icon">✅</div>
+              <div>
+                <div class="sobre-valor__label">Qualidade garantida</div>
+                <div class="sobre-valor__desc">Feno selecionado e com padrão de excelência</div>
+              </div>
+            </div>
+            <div class="sobre-valor">
+              <div class="sobre-valor__icon">🤝</div>
+              <div>
+                <div class="sobre-valor__label">Atendimento direto</div>
+                <div class="sobre-valor__desc">Sem intermediários, fale com o produtor</div>
+              </div>
+            </div>
+            <div class="sobre-valor">
+              <div class="sobre-valor__icon">📦</div>
+              <div>
+                <div class="sobre-valor__label">Grande escala</div>
+                <div class="sobre-valor__desc">Capacidade para atender grandes demandas</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       BANNER: PARCERIA ADVOGADO
+       ============================== -->
+  <section class="parceria-section" id="parceria">
+    <div class="section-container">
+      <div class="parceria-inner">
+
+        <!-- ✏️ EDITAR: Adicione a foto em assets/advogado.jpg -->
+        <div class="parceria-foto fade-in">
+          <img
+            src="assets/advogado.jpg"
+            alt="Foto do advogado parceiro"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          />
+          <div class="parceria-foto__placeholder">
+            <span>👨‍⚖️</span>
+            <p>Foto do<br>Advogado</p>
+          </div>
+        </div>
+
+        <div class="parceria-text fade-in fade-in-delay-2">
+          <span class="section-label">⚖️ Suporte jurídico</span>
+          <!-- ✏️ EDITAR: Texto da parceria -->
+          <h2>Precisa de suporte jurídico no agronegócio?</h2>
+          <p>Conheça nosso parceiro especialista em <strong>direito rural</strong>. Assessoria jurídica completa para contratos, arrendamentos, questões fundiárias e muito mais.</p>
+
+          <div style="margin-top:24px;">
+            <!-- ✏️ EDITAR: Link do WhatsApp do advogado -->
+            <a href="https://wa.me/5500000000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Ponto%20Feno%20e%20gostaria%20de%20suporte%20jur%C3%ADdico%20rural." target="_blank" rel="noopener noreferrer" class="btn-bege">
+              <span>⚖️</span> Falar com Advogado
+            </a>
+            <p class="parceria-wa-label">Atendimento via WhatsApp</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+  <footer class="footer" id="contato">
+    <p>&copy; 2026 Ponto Feno. Todos os direitos reservados.</p>
+    <p>
+      Desenvolvido por
+      <a href="https://instagram.com/brandcode" target="_blank" rel="noopener noreferrer">BrandCode Solutions</a>
+    </p>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <!-- ✏️ EDITAR: link do WhatsApp -->
+  <a href="https://wa.me/5518997384575?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="whatsapp-float" title="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
