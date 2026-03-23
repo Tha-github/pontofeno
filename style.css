@@ -440,6 +440,8 @@ h1,h2,h3,h4 { font-family: var(--fonte-titulo); line-height:1.15; }
   text-align: center;
   transition: var(--transicao);
   box-shadow: var(--sombra);
+  display: flex;
+  flex-direction: column;
 }
 .animal-card:hover {
   transform: translateY(-6px);
@@ -456,7 +458,14 @@ h1,h2,h3,h4 { font-family: var(--fonte-titulo); line-height:1.15; }
   background: linear-gradient(135deg, #edfaf1 0%, #f4faf4 100%);
 }
 
-.animal-card__body { padding: 20px 16px 24px; }
+.animal-card__body {
+  padding: 20px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.animal-card__desc { flex: 1; }
 
 .animal-card__name {
   font-family: var(--fonte-titulo);
